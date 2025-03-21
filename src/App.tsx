@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="grid min-h-screen bg-[url('https://unicorn-images.b-cdn.net/5256b802-0f50-4a80-848e-ab62ef6008ea?optimizer=gif')] bg-cover bg-center bg-no-repeat text-foreground relative">
+      <div className="grid min-h-screen bg-[url('https://res.cloudinary.com/duqbf6np3/image/upload/v1742562319/background_img_mkdvsu.png')] bg-cover bg-center bg-no-repeat text-foreground relative">
         <NavBar/>
         <main className="flex flex-col gap-6 container mx-auto px-4 md:px-6 lg:px-8 pb-16">
           <section id="home" className="min-h-screen flex items-center">
