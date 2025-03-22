@@ -6,7 +6,7 @@ const projects = [
         title: "Delish",
         description:
             "A full-stack Restaurent Order Management Application built using MERN stack.",
-        image: "https://res.cloudinary.com/duqbf6np3/image/upload/v1742539466/delish_xc4jce.png",
+        image: "https://res.cloudinary.com/duqbf6np3/image/upload/v1742626101/delish_djyyf3.png",
         tags: ["React", "cloudflare workers", "Postgres", ],
         liveUrl: "https://fronted-restaurent-vishals-projects-c1135766.vercel.app/",
         githubUrl: "https://github.com/GAJULAVISHAL/Resturent-portal-project",
