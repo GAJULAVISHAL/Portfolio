@@ -25,11 +25,11 @@ export default function Projects() {
                 {projects.map((project) => (
                     <div className="bg-black-600 rounded-lg overflow-hidden shadow-lg border border-gray-700 hover:border-gray-600 transition-colors duration-300 group w-full max-w-sm shadow-gray-500">
                         { /* Top Image (fixed aspect ratio) */}
-                        <div className="relative overflow-hidden aspect-video">
+                        <div className="relative overflow-hidden aspect-video ">
                             <img
                                 src={project.image || "/placeholder.svg"}
                                 alt={project.title}
-                                className="text-white w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                className="text-white w-full h-full object-fill transition-transform duration-500 group-hover:scale-105"
                             />
                         </div>
 
