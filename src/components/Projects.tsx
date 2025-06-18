@@ -7,9 +7,29 @@ const projects = [
         description:
             "A full-stack Restaurent Order Management Application built using MERN stack.",
         image: "https://res.cloudinary.com/duqbf6np3/image/upload/v1742626101/delish_djyyf3.png",
-        tags: ["React", "cloudflare workers", "Postgres", ],
+        tags: ["React", "Cloudflare Workers", "Postgres" ],
         liveUrl: "https://fronted-restaurent-vishals-projects-c1135766.vercel.app/",
         githubUrl: "https://github.com/GAJULAVISHAL/Resturent-portal-project",
+    },
+    {
+        id: 2,
+        title: "QR PASS",
+        description:
+            "A QR Code Generator Application built using React and Cloudflare Workers.",
+        image: "https://res.cloudinary.com/duqbf6np3/image/upload/v1750268184/430affa3-45db-4835-946b-ec33dd111e77_zbuudx.jpg",
+        tags: ["React", "Cloudflare Workers", "Postgres","Vercel" ],
+        liveUrl: "https://qr-app-silk.vercel.app/",
+        githubUrl: "https://github.com/GAJULAVISHAL/QR_CODE_APP",
+    },
+    {
+        id: 3,
+        title: "Digital Diner",
+        description:
+            "A Full stack ordering placing Application built using React and Express ",
+        image: "https://res.cloudinary.com/duqbf6np3/image/upload/v1750269941/order_kai0jl.jpg",
+        tags: ["React", "Express","Prisma", "Postgres","Vercel" ],
+        liveUrl: "https://foodiiee.vercel.app/",
+        githubUrl: "https://github.com/GAJULAVISHAL/foodie",
     }
 ]
 export default function Projects() {
